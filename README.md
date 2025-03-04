@@ -1,6 +1,19 @@
-# Yaatra AI Trip Planner
+# Yaatra AI: AI-Powered Trip Planner
 
-Yaatra AI is an AI-powered trip planner that generates personalized travel itineraries based on user preferences such as destination, budget, trip duration, and activities. It uses **ChromaDB** for vector-based retrieval, **multi-chain RAG architecture**, and AI models for itinerary generation.
+Yaatra AI is an advanced AI-powered trip planner that leverages cutting-edge technologies to generate personalized travel itineraries. At its core, it utilizes **DeepSeek-R1:1.5B**, an **Ollama-based model**, renowned for its advanced reasoning capabilities, ensuring well-thought-out and optimized travel plans. 
+
+## 🧠 AI and Technical Backbone
+
+### **DeepSeek-R1:1.5B for Intelligent Planning**
+DeepSeek-R1:1.5B is pivotal to Yaatra AI, as it enables deep contextual understanding and decision-making. Unlike traditional models, DeepSeek's advanced logical reasoning allows it to analyze multiple travel factors, optimize costs, and tailor recommendations based on user preferences.
+
+### **ChromaDB for Efficient Retrieval**
+Yaatra AI stores and retrieves travel data using **ChromaDB**, a high-performance vector database. This ensures quick and relevant access to travel information, enabling the AI to provide recommendations that align with user preferences.
+
+### **Multi-Chain RAG Architecture**
+By implementing **multi-chain Retrieval-Augmented Generation (RAG)**, Yaatra AI dynamically fetches and generates trip plans based on real-time user input, ensuring personalized and optimized itineraries.
+
+Together, these technologies power an intelligent, AI-driven travel assistant that simplifies trip planning with **highly optimized and context-aware recommendations**.
 
 ## 🚀 Features
 
