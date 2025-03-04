@@ -18,14 +18,45 @@ Yaatra AI is an AI-powered trip planner that generates personalized travel itine
 
 Below is a step-by-step guide on how Yaatra AI generates a personalized trip plan using AI.
 
-### 1️⃣ **User Input Stage**  
-The user provides the trip details, including the **destination, budget, duration, trip type, and activities**.  
+## 1️⃣ **User Input Stage**  
 
-![User Input](images/input_1.png)  
+The trip planning process starts with the user entering key details about their journey. This step-by-step input process ensures that Yatra AI generates a personalized itinerary based on user preferences.  
 
-Users can further refine their choices to ensure the AI generates a tailored itinerary.
+### 📌 **Step 1: Enter Destination & Date**  
+The user begins by selecting the **destination** they want to visit and the **travel dates**. This helps the AI retrieve relevant location-specific data.  
 
-![Refining Input](images/input_2.png)  
+![Step 1 - Destination & Date](images/input_1.png)  
+
+### 📌 **Step 2: Set Trip Duration & Budget**  
+Next, the user specifies how long they plan to stay and their total **budget**. The AI considers these constraints when generating an optimized itinerary.  
+
+![Step 2 - Duration & Budget](images/input_2.png)  
+
+### 📌 **Step 3: Choose Trip Type**  
+Users can select the type of trip they want, such as:  
+- **Solo** – Traveling alone.  
+- **Friends** – A group trip with friends.  
+- **Couple** – A romantic getaway.  
+- **Family** – A vacation with family.  
+- **Business** – A work-related trip.  
+
+![Step 3 - Trip Type](images/input_3.png)  
+
+### 📌 **Step 4: Select Mode of Transport**  
+The user picks their preferred transportation method, which can include:  
+- **Train**  
+- **Bus**  
+- **Plane**  
+
+This choice affects the travel time and overall cost calculations.  
+
+![Step 4 - Transport Mode](images/input_4.png)  
+
+### 📌 **Step 5: Select Interests & Activities**  
+Finally, the user selects their **areas of interest** for their trip.
+The AI curates the itinerary based on these preferences.  
+
+![Step 5 - Interests & Activities](images/input_5.png)  
 
 ---
 
@@ -38,12 +69,16 @@ The AI model generates a **personalized itinerary, estimated costs, and optimize
 
 After processing, the app dynamically updates and presents a **structured trip plan**.
 
-![Generated Itinerary](images/output_2.png)  
+![Generated Itinerary](images/output_2.png)
+
+The itinerary consists of a plan for each day for the number of days the user is planning trip for.
+
+![Generated Itinerary](images/output_3.png)
 
 ---
 
 ### 3️⃣ **Downloading the Trip Plan as a PDF**  
-Users can download the AI-generated itinerary in **PDF format** for offline access.  
+Users can download the AI-generated itinerary in **PDF format** for offline access.
 
 Clicking the **"Download Trip PDF"** button generates a structured travel document.
 
@@ -51,7 +86,8 @@ Clicking the **"Download Trip PDF"** button generates a structured travel docume
 
 The downloaded PDF contains **all trip details, cost breakdown, and AI recommendations**.
 
-![PDF Preview](images/pdf_2.png)  
+![PDF Preview](images/pdf_2.png)
+![PDF Preview](images/pdf_3.png)
 
 ---
 
@@ -76,7 +112,6 @@ Yaatra AI is built using a combination of **cutting-edge AI models, databases, a
 | **DeepSeek-R1:1.5B** | AI model used for generating trip itineraries.                      |
 | **nomic-embed-text** | Embedding model for text-based similarity searches.                 |
 | **Python**           | Main programming language for backend logic and AI processing.      |
-|----------------------|---------------------------------------------------------------------|
 
 ---
 
